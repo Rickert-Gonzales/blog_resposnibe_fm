@@ -1,0 +1,54 @@
+/* Formateo de los estilos base para el proyecto */
+@import url("./assets/fonts/static/Inter-Bold.ttf");
+@import url("./assets/fonts/static/Inter-ExtraBold.ttf");
+@import url("./assets/fonts/static/Inter-Regular.ttf");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+}
+ul {
+   list-style: none;
+}
+li {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+   padding: 0;
+   margin: 0;
+}
+section {
+   width: 100%;
+   padding: 16px 16px 16px 16px;
+}
+main {
+   min-height: 100vh;
+}
+
+@media screen and (min-width: 1020px) {
+   main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   section {
+      width: 80%;
+   }
+}
