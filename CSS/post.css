@@ -150,7 +150,7 @@
    }
    .content_post h1 {
       width: 100%;
-      padding: 0;
+      padding: 1px;
       font-size: 54px;
       line-height: 60px;
    }
@@ -185,6 +185,9 @@
    .news .card_new:nth-child(3) {
       border-bottom: 2px solid;
       border-color: var(--Dark-grayish-blue);
+   }
+   .news {
+      align-items: flex-start;
    }
 
    /* Blog */

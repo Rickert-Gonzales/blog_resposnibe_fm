@@ -8,11 +8,13 @@ console.log(closeIcon, openIcon);
 
 // Funcionalida
 openIcon.addEventListener("click", () => {
+   console.log("Hola");
    enlaces.style.visibility = "visible";
    sombra.style.visibility = "visible";
 });
 
 closeIcon.addEventListener("click", () => {
+   console.log("Hola 2");
    enlaces.style.visibility = "collapse";
    sombra.style.visibility = "collapse";
 });
